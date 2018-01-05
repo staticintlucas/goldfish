@@ -32,15 +32,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:atmega32u4-ep
-LIBS:goldfish-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Goldfish"
-Date "2017-12-12"
-Rev "0"
+Date "2017-12-20"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -510,7 +509,7 @@ U 1 1 5A296B39
 P 6600 1150
 F 0 "C6" H 6625 1250 50  0000 L CNN
 F 1 "4u7" H 6625 1050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 6638 1000 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6638 1000 50  0001 C CNN
 F 3 "" H 6600 1150 50  0001 C CNN
 	1    6600 1150
 	1    0    0    -1  

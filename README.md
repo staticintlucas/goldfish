@@ -15,13 +15,16 @@ It is based on the same ATMega32U4 IC as regular Pro Micros so can be programmed
 * More expensive (depends on quantity ordered though)
 * No onboard voltage regulator (won't make a difference for keyboards, can be an issue for other electronics projects)
 
+## Known Issues
+* Rev. 0 and A both suffer from the same issue as the [green Pro Micro clone](http://www.40percent.club/2017/09/green-pro-micro.html). This will be fixed in Rev. B.
+
 ## Repo Contents
 **/cad** - KiCad source files  
-**/doc** - Schematics, Documentation and Data Sheets (when I create them)  
+**/doc** - Schematics, Documentation and Data Sheets (when I create them)
 
 ## License Information
 Released under the Creative Commons Attribution Share-Alike 4.0 License.  
-https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/  
 
 Original Arduino Mini Design by Team Arduino.  
 Arduino Pro Mini Design by Spark Fun Electronics.  
@@ -29,5 +32,5 @@ Pro Micro Design by Spark Fun Electronics.
 Goldfish Design by Dr Derivative.  
    
 ## Changes
-**Rev. 0** - Initial Design  
-   
+**Rev. 0** - Initial Design
+**Rev. A** - Changed footprint of C6 from 0402 to 0603 to reduce component cost by a few cent
