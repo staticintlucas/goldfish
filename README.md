@@ -16,18 +16,18 @@ It is based on the same ATMega32U4 IC as regular Pro Micros so can be programmed
 * No onboard voltage regulator (won't make a difference for keyboards, can be an issue for other electronics projects)
 
 ## Repo Contents
-**/cad** - KiCad source files
-**/doc** - Schematics, Documentation and Data Sheets (when I create them)
+**/cad** - KiCad source files  
+**/doc** - Schematics, Documentation and Data Sheets (when I create them)  
 
 ## License Information
-Released under the Creative Commons Attribution Share-Alike 4.0 License
+Released under the Creative Commons Attribution Share-Alike 4.0 License.  
 https://creativecommons.org/licenses/by-sa/4.0/
 
-Original Arduino Mini Design by Team Arduino
-Arduino Pro Mini Design by Spark Fun Electronics
-Pro Micro Design by Spark Fun Electronics
-Goldfish Design by Dr Derivative
+Original Arduino Mini Design by Team Arduino.  
+Arduino Pro Mini Design by Spark Fun Electronics.  
+Pro Micro Design by Spark Fun Electronics.  
+Goldfish Design by Dr Derivative.  
    
 ## Changes
-**Rev. 0** - Initial Design
+**Rev. 0** - Initial Design  
    
