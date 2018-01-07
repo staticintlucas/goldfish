@@ -6,7 +6,7 @@ It is based on the same ATMega32U4 chip as the original Pro Micro and can be pro
 * The through-hole USB connector is much less likely to break off compared to surface mount connectors.
 * USB-C is reversible, more durable and just plain cool.
 * Pin-compatible with the original Pro Micro and Pro Micro clones.
-* Goldfish has five extra pins available along its bottom edge if extra pins are required.
+* Goldfish has five extra pins available along its bottom edge if more pins are required.
 * USB data lines are easily accessible through two internal pins.
 * A mid-mounted USB-C connector allows goldfish to be much thinner than a Pro Micro.
 
