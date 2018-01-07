@@ -1,6 +1,6 @@
 # Goldfish
-The goldfish is a Pro Micro compatible microcontroller designed for use in mechanical keyboards, although it is perfectly capable for any other hobby electronics project.
-It is based on the same ATMega32U4 chip as the original Pro Micro and can be programmed using the Arduino IDE, or keyboard specific firmware such as TMK or QMK,
+The goldfish is a Pro Micro compatible microcontroller designed for use in mechanical keyboards, although it is perfectly suitable for any other hobby electronics project.
+It is based on the same ATMega32U4 chip as the original Pro Micro and can be programmed using the Arduino IDE, or keyboard specific firmware such as TMK or QMK.
 
 ## Advantages
 * The through-hole USB connector is much less likely to break off compared to surface mount connectors.
@@ -11,9 +11,9 @@ It is based on the same ATMega32U4 chip as the original Pro Micro and can be pro
 * A mid-mounted USB-C connector allows goldfish to be much thinner than a Pro Micro.
 
 ## Disadvantages
-* Fewer custom cable options for USB-C compared to Mini-B/Micro-B.
+* Fewer custom cable options for USB-C when compared to Mini-B/Micro-B.
 * More expensive (depends on order quantity of course).
-* No onboard voltage regulator (this makes no difference for keyboards; an external regulator is required when power supplies of over 5.5V are used).
+* No onboard voltage regulator (this makes no difference for keyboards; an external regulator is only required when power supplies of over 5.5V are used).
 
 ## Known Issues
 * Rev. 0 and Rev. A both suffer from a similar issue to the [green Pro Micro clone](http://www.40percent.club/2017/09/green-pro-micro.html) making it unsuitable for split keyboards. This will be fixed in Rev. B.
