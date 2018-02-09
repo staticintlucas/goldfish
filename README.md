@@ -14,9 +14,10 @@ It is based on the same ATMega32U4 chip as the original Pro Micro and can be pro
 * Fewer custom cable options for USB-C when compared to Mini-B/Micro-B.
 * More expensive (depends on order quantity of course).
 * No onboard voltage regulator (this makes no difference for keyboards; an external regulator is only required when power supplies of over 5.5V are used).
+* No onboard RX, TX or Power indicator LEDs
 
 ## Known Issues
-* Rev. 0 and Rev. A both suffer from a similar issue to the [green Pro Micro clone](http://www.40percent.club/2017/09/green-pro-micro.html) making it unsuitable for split keyboards. This will be fixed in Rev. B.
+* Rev. 0 and Rev. A both suffer from a similar issue to the [green Pro Micro clone](http://www.40percent.club/2017/09/green-pro-micro.html) making it unsuitable for split keyboards. This should now be fixed in Rev. B.
 
 ## Repo Contents
 **/cad** - KiCad source files.  
@@ -34,3 +35,4 @@ Goldfish Design by Dr Derivative.
 ## Changes
 **Rev. 0** - Initial Design  
 **Rev. A** - Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent.  
+**Rev. B** - Fixed split keyboard issue described above. Redid parts of the layout to be less messy and remove signal lines from under the crystal.
