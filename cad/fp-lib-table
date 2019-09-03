@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name fish)(type KiCad)(uri ${KIPRJMOD}/fish.pretty)(options "")(descr ""))
+  (lib (name pins)(type KiCad)(uri ${KIPRJMOD}/pins.pretty)(options "")(descr ""))
+  (lib (name usb-type-c)(type KiCad)(uri ${KIPRJMOD}/usb-type-c.pretty)(options "")(descr ""))
+)
