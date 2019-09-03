@@ -36,3 +36,4 @@ Goldfish Design by Dr Derivative.
 **Rev. 0** - Initial Design  
 **Rev. A** - Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent.  
 **Rev. B** - Fixed split keyboard issue described above. Redid parts of the layout to be less messy and remove signal lines from under the crystal.
+**Rev. C** - Changed layout of the bottom edge pins to match the Elite-C
