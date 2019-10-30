@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L power:GND #PWR01
 U 1 1 5A284D23
-P 2500 4400
-F 0 "#PWR01" H 2500 4150 50  0001 C CNN
-F 1 "GND" H 2500 4250 50  0000 C CNN
-F 2 "" H 2500 4400 50  0001 C CNN
-F 3 "" H 2500 4400 50  0001 C CNN
-	1    2500 4400
+P 2400 4400
+F 0 "#PWR01" H 2400 4150 50  0001 C CNN
+F 1 "GND" H 2400 4250 50  0000 C CNN
+F 2 "" H 2400 4400 50  0001 C CNN
+F 3 "" H 2400 4400 50  0001 C CNN
+	1    2400 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -104,12 +104,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5A2856E5
-P 2300 4400
-F 0 "#FLG04" H 2300 4475 50  0001 C CNN
-F 1 "PWR_FLAG" H 2450 4550 50  0000 C CNN
-F 2 "" H 2300 4400 50  0001 C CNN
-F 3 "" H 2300 4400 50  0001 C CNN
-	1    2300 4400
+P 2200 4400
+F 0 "#FLG04" H 2200 4475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 4550 50  0000 C CNN
+F 2 "" H 2200 4400 50  0001 C CNN
+F 3 "" H 2200 4400 50  0001 C CNN
+	1    2200 4400
 	-1   0    0    1   
 $EndComp
 Text Label 3300 2500 0    60   ~ 0
@@ -117,7 +117,7 @@ D+
 Text Label 3300 2400 0    60   ~ 0
 D-
 $Comp
-L goldfish-rescue:USB_C_Receptacle-Connector J1
+L Connector:USB_C_Receptacle J1
 U 1 1 5A284C67
 P 2100 2600
 F 0 "J1" H 1700 4050 50  0000 L CNN
@@ -588,34 +588,15 @@ Wire Wire Line
 Wire Wire Line
 	1800 4200 1800 4300
 Wire Wire Line
-	1800 4300 1900 4300
-Wire Wire Line
-	1900 4300 1900 4200
-Wire Wire Line
-	2000 4300 2000 4200
-Connection ~ 1900 4300
-Wire Wire Line
 	2100 4300 2100 4200
-Connection ~ 2000 4300
-Wire Wire Line
-	2200 4300 2200 4200
 Connection ~ 2100 4300
 Wire Wire Line
-	2300 4300 2300 4400
-Connection ~ 2200 4300
+	2200 4300 2200 4400
 Wire Wire Line
 	2800 1600 2700 1600
 Wire Wire Line
 	2800 1200 2800 1300
-Wire Wire Line
-	2700 1300 2800 1300
 Connection ~ 2800 1300
-Wire Wire Line
-	2800 1400 2700 1400
-Connection ~ 2800 1400
-Wire Wire Line
-	2800 1500 2700 1500
-Connection ~ 2800 1500
 Wire Wire Line
 	2700 1900 3000 1900
 Wire Wire Line
@@ -646,8 +627,8 @@ Wire Wire Line
 	2700 2300 2800 2300
 Connection ~ 2800 2400
 Wire Wire Line
-	2500 4300 2500 4400
-Connection ~ 2300 4300
+	2400 4300 2400 4400
+Connection ~ 2200 4300
 Wire Wire Line
 	3000 1300 3000 1200
 Wire Wire Line
@@ -999,21 +980,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1450 9300 1450
 Wire Wire Line
-	1900 4300 2000 4300
-Wire Wire Line
-	2000 4300 2100 4300
-Wire Wire Line
-	2100 4300 2200 4300
-Wire Wire Line
-	2200 4300 2300 4300
-Wire Wire Line
-	2800 1300 2800 1400
-Wire Wire Line
 	2800 1300 3000 1300
-Wire Wire Line
-	2800 1400 2800 1500
-Wire Wire Line
-	2800 1500 2800 1600
 Wire Wire Line
 	3400 1900 3400 2000
 Wire Wire Line
@@ -1021,7 +988,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2400 2800 2500
 Wire Wire Line
-	2300 4300 2500 4300
+	2200 4300 2400 4300
 Wire Wire Line
 	7300 2700 7700 2700
 Wire Wire Line
@@ -1094,4 +1061,10 @@ Connection ~ 6600 1400
 Text Label 10350 3500 0    60   ~ 0
 PD5
 NoConn ~ 10350 3600
+Wire Wire Line
+	1800 4300 2100 4300
+Wire Wire Line
+	2100 4300 2200 4300
+Wire Wire Line
+	2800 1300 2800 1600
 $EndSCHEMATC
