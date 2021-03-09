@@ -37,3 +37,8 @@ Goldfish Design by Dr Derivative.
 **Rev. A** - Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent.  
 **Rev. B** - Fixed split keyboard issue described above. Redid parts of the layout to be less messy and remove signal lines from under the crystal.  
 **Rev. C** - Changed layout of the bottom edge pins to match the Elite-C.  
+
+## Vendors selling goldfish
+* Comet (based on modified goldfish design) available on [Tokas' Kable Works](https://shop.tokas.co.uk/product/comet-usb-c-microcontroller/) (also open source on [GitHub](https://github.com/vattern/comet).
+
+**Note:** This product is sold by a 3rd party vendor and is not 'officially' endorsed by me. I'm simply listing it here for convenience.
