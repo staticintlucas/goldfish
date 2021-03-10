@@ -38,7 +38,16 @@ Goldfish Design by Dr Derivative.
 **Rev. B** - Fixed split keyboard issue described above. Redid parts of the layout to be less messy and remove signal lines from under the crystal.  
 **Rev. C** - Changed layout of the bottom edge pins to match the Elite-C.  
 
-## Vendors selling goldfish
-* Comet (based on modified goldfish design) available on [Tokas' Kable Works](https://shop.tokas.co.uk/product/comet-usb-c-microcontroller/) (also open source on [GitHub](https://github.com/vattern/comet).
+## Related Projects
+* [Alvaro](https://github.com/Ariamelon/Alvaro) by Ariamelon - A modified goldfish using 0603 components instead of 0402
+* [Comet](https://github.com/vattern/comet) by Tokas - A modified goldfish using a different USB-C connector
+* [Goldfish-clone-JLCPCB](https://github.com/JeremyJStarcher/Goldfish-clone-JLCPCB) by Jeremy J Starcher - A modified goldfish designed to meet JLCPCB's assembly requirements
+* Elite-C from keeb.io - An unrelated and closed source project with similar design goals
+(Please let me know if anything is missing from this list)
 
-**Note:** This product is sold by a 3rd party vendor and is not 'officially' endorsed by me. I'm simply listing it here for convenience.
+## Vendors Selling Goldfish
+* Rev. C available on [beekeeb](https://shop.beekeeb.com/product/goldfish-rev-c-open-source-pro-micro-replacement/)
+* Comet (modified design; see related projects) available on [Tokas' Kable Works](https://shop.tokas.co.uk/product/comet-usb-c-microcontroller/).
+**Note:** These products are sold by 3rd party vendors and are not 'officially' endorsed by me. I'm simply listing them here for convenience.
+(Also please let me know if anything is missing from this list)
+
