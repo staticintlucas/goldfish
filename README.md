@@ -17,9 +17,8 @@
 
 # Goldfish
 
-This **Pro Micro** compatible board designed for use in `Mechanical Keyboards`, <br>
-based on the same `ATMega32U4` chip and programmable using the **Arduino IDE** <br>
-or a keyboard specific firmware such as `TMK` or `QMK`.
+Goldfish is a Pro Micro compatible board designed for use in mechanical keyboards.
+It is based on the same ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK.
 
 ![Preview]
 
