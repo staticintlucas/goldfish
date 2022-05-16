@@ -1,7 +1,7 @@
 
 # Goldfish
 
-Goldfish is a Pro Micro compatible board designed for use in mechanical keyboards. It is based on the same ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
+Goldfish is a Pro Micro compatible microcontroller board designed for use in mechanical keyboards. It is based on the same Atmel ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
 
 ![Preview]
 
@@ -13,44 +13,43 @@ Goldfish is a Pro Micro compatible board designed for use in mechanical keyboard
 
 ## Advantages
 
-- Lower board profile with the mid-mounted USB-C connector.
-- Two internal pins make the USB data lines easily accessible.
-- USB-C is more durable, reversible and just plain cool.
-- 5 additional pins on the underside of the board.
-- Pin-compatible with the original Pro Micro.
-- Sturdier through-hole USB connector.
+- Lower board profile with the mid-mounted USB-C connector
+- Two internal pins make the USB data lines easily accessible
+- USB-C is more durable, reversible and just plain cool
+- 5 additional pins on the underside of the board
+- Pin-compatible with the original Pro Micro
+- Sturdier through-hole USB connector
 
 ## Disadvantages
 
-- Less choice for custom cables for USB-C compared to Mini-B / Micro-B.
-- More expensive, depending on order quantity.
-- No onboard RX, TX, LEDs.
+- Can be more expensive, depending on order quantity
+- No onboard RX, TX, LEDs
 - No onboard Voltage Regulator (this makes no difference for keyboards; a regulator is only required when power supplies of over 5.5V are used)
 
 ## Known Issues
 
 #### VBUS connected to VCC &mdash; fixed in Rev. B
-- Similar problem as the [Green Pro Micro clone] making it unsuitable for certain split keyboards. \
+- Similar problem as the [Green Pro Micro clone] making it unsuitable for certain split keyboards
 - Applies to Rev. 0 and Rev. A
   
 ## Changelog
 
-#### Rev C
+#### Rev. C
 
-- Changed layout of the bottom edge pins to match the Elite-C.
+- Changed layout of the bottom edge pins to match the Elite-C
 
-#### Rev B
+#### Rev. B
 
-- Fixed split keyboard issue.
-- Tidied up parts of the layout, including the removal of signal lines from under the crystal.
+- Fixed split keyboard issue
+- Tidied up parts of the layout, including the removal of signal lines from under the crystal
 
-#### Rev A
+#### Rev. A
 
-- Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent.
+- Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent
 
-#### Rev 0
+#### Rev. 0
 
-- Initial Design.
+- Initial Design
 
 ## Vendors Selling Goldfish
 
@@ -70,23 +69,23 @@ Goldfish is a Pro Micro compatible board designed for use in mechanical keyboard
 
 #### [Alvaro] by Ariamelon
 
-- A modified Goldfish using 0603 components instead of 0402.
+- A modified Goldfish using 0603 components instead of 0402
 
 #### [Comet] by Tokas
 
-- A modified Goldfish using a HRO TYPE-C-31-M-12 connector.
+- A modified Goldfish using a HRO TYPE-C-31-M-12 connector
 
 #### [Whale] by Jia Geng Chang
 
-- A modified Goldfish using a Jing 918-418K2024S40000 connector.
+- A modified Goldfish using a Jing 918-418K2024S40000 connector
 
 #### [Goldfish-clone-JLCPCB] by Jeremy J Starcher
 
-- A modified Goldfish designed to meet JLCPCB's assembly requirements.
+- A modified Goldfish designed to meet JLCPCB's assembly requirements
 
 #### [Elite-C] from keeb.io
 
-- An unrelated and closed source project with similar design goals.
+- An unrelated and closed source project with similar design goals
 
 *(Please let me know if anything is missing form this list)*
 
