@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name atmega32u4-ep)(type Legacy)(uri ${KIPRJMOD}/atmega32u4-ep.lib)(options "")(descr ""))
-  (lib (name goldfish-rescue)(type Legacy)(uri ${KIPRJMOD}/goldfish-rescue.lib)(options "")(descr ""))
+  (lib (name "atmega32u4-ep")(type "KiCad")(uri "${KIPRJMOD}/atmega32u4-ep.kicad_sym")(options "")(descr ""))
 )
