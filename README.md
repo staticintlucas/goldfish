@@ -28,7 +28,7 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 ## Known Issues
 
 #### Incorrect silkscreen on for bottom edge pins &mdash; will be fixed in v1 revD
-- Layout of bottom edge pins was changes to match the Elite-C in v1 revC, but the silkscreen was never updated
+- Layout of bottom edge pins was changed to match the Elite-C in v1 revC, but the silkscreen was never updated
 - Applies to v1 revC
 
 #### VBUS connected to VCC &mdash; fixed in v1 revB
