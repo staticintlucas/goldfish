@@ -1,4 +1,3 @@
-
 # Goldfish
 
 Goldfish is a Pro Micro compatible microcontroller board designed for use in mechanical keyboards. It is based on the same Atmel ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
@@ -28,36 +27,36 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 ## Known Issues
 
-#### VBUS connected to VCC &mdash; fixed in Rev. B
+#### VBUS connected to VCC &mdash; fixed in v1 revB
 - Similar problem as the [Green Pro Micro clone] making it unsuitable for certain split keyboards
-- Applies to Rev. 0 and Rev. A
+- Applies to v1 rev0 and v1 revA
   
 ## Changelog
 
-#### Rev. C
+#### v1 revC
 
 - Changed layout of the bottom edge pins to match the Elite-C
 
-#### Rev. B
+#### v1 revB
 
 - Fixed split keyboard issue
 - Tidied up parts of the layout, including the removal of signal lines from under the crystal
 
-#### Rev. A
+#### v1 revA
 
 - Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent
 
-#### Rev. 0
+#### v1 rev0
 
 - Initial Design
 
 ## Vendors Selling Goldfish
 
-#### Rev. C
+#### v1 revC
 
 - [BeeKeeb]
 
-#### Comet (modified design based on Goldfish; see related projects) 
+#### Comet (modified design based on Goldfish v1; see related projects) 
 
 - [Tokas' Kable Works]
 
@@ -69,19 +68,19 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 #### [Alvaro] by Ariamelon
 
-- A modified Goldfish using 0603 components instead of 0402
+- A modified Goldfish v1 using 0603 components instead of 0402
 
 #### [Comet] by Tokas
 
-- A modified Goldfish using a HRO TYPE-C-31-M-12 connector
+- A modified Goldfish v1 using a HRO TYPE-C-31-M-12 connector
 
 #### [Whale] by Jia Geng Chang
 
-- A modified Goldfish using a Jing 918-418K2024S40000 connector
+- A modified Goldfish v1 using a Jing 918-418K2024S40000 connector
 
 #### [Goldfish-clone-JLCPCB] by Jeremy J Starcher
 
-- A modified Goldfish designed to meet JLCPCB's assembly requirements
+- A modified Goldfish v1 designed to meet JLCPCB's assembly requirements
 
 #### [Elite-C] from keeb.io
 
