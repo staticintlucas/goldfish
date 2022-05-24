@@ -27,44 +27,44 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 ## Known Issues
 
-#### Incorrect silkscreen on for bottom edge pins &mdash; fixed in v1 revD
-- Layout of bottom edge pins was changed to match the Elite-C in v1 revC, but the silkscreen was never updated
-- Applies to v1 revC
+#### Incorrect silkscreen on for bottom edge pins &mdash; fixed in V1 Rev. D
+- Layout of bottom edge pins was changed to match the Elite-C in V1 Rev. C, but the silkscreen was never updated
+- Applies to V1 Rev. C
 
-#### VBUS connected to VCC &mdash; fixed in v1 revB
+#### VBUS connected to VCC &mdash; fixed in V1 Rev. B
 - Similar problem as the [Green Pro Micro clone] making it unsuitable for certain split keyboards
-- Applies to v1 rev0 and v1 revA
+- Applies to V1 Rev. 0 and V1 Rev. A
   
 ## Changelog
 
-#### v1 revD
+#### V1 Rev. D
 
 - Fixed incorrect silkscreen labels along bottom edge
 
-#### v1 revC
+#### V1 Rev. C
 
 - Changed layout of the bottom edge pins to match the Elite-C
 
-#### v1 revB
+#### V1 Rev. B
 
 - Fixed split keyboard issue
 - Tidied up parts of the layout, including the removal of signal lines from under the crystal
 
-#### v1 revA
+#### V1 Rev. A
 
 - Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent
 
-#### v1 rev0
+#### V1 Rev. 0
 
 - Initial Design
 
 ## Vendors Selling Goldfish
 
-#### v1 revC
+#### V1 Rev. C
 
 - [BeeKeeb]
 
-#### Comet (modified design based on Goldfish v1; see related projects) 
+#### Comet (modified design based on Goldfish V1; see related projects) 
 
 - [Tokas' Kable Works]
 
@@ -76,19 +76,19 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 #### [Alvaro] by Ariamelon
 
-- A modified Goldfish v1 using 0603 components instead of 0402
+- A modified Goldfish V1 using 0603 components instead of 0402
 
 #### [Comet] by Tokas
 
-- A modified Goldfish v1 using a HRO TYPE-C-31-M-12 connector
+- A modified Goldfish V1 using a HRO TYPE-C-31-M-12 connector
 
 #### [Whale] by Jia Geng Chang
 
-- A modified Goldfish v1 using a Jing 918-418K2024S40000 connector
+- A modified Goldfish V1 using a Jing 918-418K2024S40000 connector
 
 #### [Goldfish-clone-JLCPCB] by Jeremy J Starcher
 
-- A modified Goldfish v1 designed to meet JLCPCB's assembly requirements
+- A modified Goldfish V1 designed to meet JLCPCB's assembly requirements
 
 #### [Elite-C] from keeb.io
 
