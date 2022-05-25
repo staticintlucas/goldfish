@@ -1,8 +1,10 @@
-# Goldfish
+# Goldfish v2
+
+**Note: This branch contains the work in progress design for Goldfish v2. The original Goldfish v1 design files is available in the [v1 branch].**
 
 Goldfish is a Pro Micro compatible microcontroller board designed for use in mechanical keyboards. It is based on the same Atmel ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
 
-![Preview]
+<img src="docs/preview.png" width="50%" left="25%">
 
 ## Links
 
@@ -10,7 +12,7 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 - [Schematic]
 
-## Advantages
+## Features
 
 - Lower board profile with the mid-mounted USB-C connector
 - Two internal pins make the USB data lines easily accessible
@@ -18,53 +20,30 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 - 5 additional pins on the underside of the board
 - Pin-compatible with the original Pro Micro
 - Sturdier through-hole USB connector
+- On board ESD protection for USB lines
+
+## Changes compared to Goldfish v1
+
+- Less obscure USB-C connector
+  - Use of more commonly available components in 2022
+  - Choice between multiple compatible connectors and suppliers
+  - Uses USB 2.0-only connector for easier and cheaper assembly
+- Addition of board ESD protection and fuse
+- All 0603 resistors and capacitors for (slightly) easier hand assembly
+- Castellated edge connectors similar to the Elite-C
 
 ## Disadvantages
 
-- Can be more expensive, depending on order quantity
 - No onboard RX, TX, LEDs
 - No onboard Voltage Regulator (this makes no difference for keyboards; a regulator is only required when power supplies of over 5.5V are used)
 
-## Known Issues
-
-#### Incorrect silkscreen on for bottom edge pins &mdash; fixed in V1 Rev. D
-- Layout of bottom edge pins was changed to match the Elite-C in V1 Rev. C, but the silkscreen was never updated
-- Applies to V1 Rev. C
-
-#### VBUS connected to VCC &mdash; fixed in V1 Rev. B
-- Similar problem as the [Green Pro Micro clone] making it unsuitable for certain split keyboards
-- Applies to V1 Rev. 0 and V1 Rev. A
-  
-## Changelog
-
-#### V1 Rev. D
-
-- Fixed incorrect silkscreen labels along bottom edge
-
-#### V1 Rev. C
-
-- Changed layout of the bottom edge pins to match the Elite-C
-
-#### V1 Rev. B
-
-- Fixed split keyboard issue
-- Tidied up parts of the layout, including the removal of signal lines from under the crystal
-
-#### V1 Rev. A
-
-- Changed the footprint of C6 from 0402 to 0603 to reduce component cost by a few cent
-
-#### V1 Rev. 0
-
-- Initial Design
-
 ## Vendors Selling Goldfish
 
-#### V1 Rev. C
+#### Goldfish v1 rev. C
 
 - [BeeKeeb]
 
-#### Comet (modified design based on Goldfish V1; see related projects) 
+#### Comet (modified design based on Goldfish v1; see related projects) 
 
 - [Tokas' Kable Works]
 
@@ -76,19 +55,19 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 #### [Alvaro] by Ariamelon
 
-- A modified Goldfish V1 using 0603 components instead of 0402
+- A modified Goldfish v1 using 0603 components instead of 0402
 
 #### [Comet] by Tokas
 
-- A modified Goldfish V1 using a HRO TYPE-C-31-M-12 connector
+- A modified Goldfish v1 using a HRO TYPE-C-31-M-12 connector
 
 #### [Whale] by Jia Geng Chang
 
-- A modified Goldfish V1 using a Jing 918-418K2024S40000 connector
+- A modified Goldfish v1 using a Jing 918-418K2024S40000 connector
 
 #### [Goldfish-clone-JLCPCB] by Jeremy J Starcher
 
-- A modified Goldfish V1 designed to meet JLCPCB's assembly requirements
+- A modified Goldfish v1 designed to meet JLCPCB's assembly requirements
 
 #### [Elite-C] from keeb.io
 
@@ -108,11 +87,10 @@ Goldfish Design by Lucas Jansen.
 
 <!-- Links -->
 
+[v1 branch]: https://github.com/staticintlucas/goldfish/tree/v1
 [schematic]: docs/schematic.pdf
 [preview]: docs/preview.png
 [pcb source files]: cad
-
-[green pro micro clone]: http://www.40percent.club/2017/09/green-pro-micro.html
 
 [beekeeb]: https://shop.beekeeb.com/product/goldfish-rev-c-open-source-pro-micro-replacement/
 [tokas' kable works]: https://shop.tokas.co.uk/product/comet-usb-c-microcontroller/
