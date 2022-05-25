@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name fish)(type KiCad)(uri ${KIPRJMOD}/fish.pretty)(options "")(descr ""))
-  (lib (name pins)(type KiCad)(uri ${KIPRJMOD}/pins.pretty)(options "")(descr ""))
-  (lib (name usb-type-c)(type KiCad)(uri ${KIPRJMOD}/usb-type-c.pretty)(options "")(descr ""))
+  (lib (name "Goldfish Pins")(type "KiCad")(uri "${KIPRJMOD}/goldfish-pins.pretty")(options "")(descr ""))
+  (lib (name "Goldfish Logo")(type "KiCad")(uri "${KIPRJMOD}/goldfish.pretty")(options "")(descr ""))
+  (lib (name "Molex 216990_GCT USB45xx_HRO TYPE-C-31-M-13x")(type "KiCad")(uri "${KIPRJMOD}/molex-216990_gct-usb45xx_hro-type-c-31-m-13x.pretty")(options "")(descr ""))
 )

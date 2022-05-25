@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "atmega32u4-ep")(type "KiCad")(uri "${KIPRJMOD}/atmega32u4-ep.kicad_sym")(options "")(descr ""))
-)
