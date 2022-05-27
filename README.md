@@ -24,13 +24,15 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 ## Changes compared to Goldfish v1
 
+- Addition of board ESD protection and fuse
+- All 0603 resistors and capacitors for (slightly) easier hand assembly
+- Castellated edge connectors similar to the Elite-C
 - Less obscure USB-C connector
   - Use of more commonly available components in 2022
   - Choice between multiple compatible connectors and suppliers
   - Uses USB 2.0-only connector for easier and cheaper assembly
-- Addition of board ESD protection and fuse
-- All 0603 resistors and capacitors for (slightly) easier hand assembly
-- Castellated edge connectors similar to the Elite-C
+
+![connectors]
 
 ## Disadvantages
 
@@ -90,6 +92,7 @@ Goldfish Design by Lucas Jansen.
 [v1 branch]: https://github.com/staticintlucas/goldfish/tree/v1
 [schematic]: docs/schematic.pdf
 [preview]: docs/preview.png
+[connectors]: docs/connectors.png
 [pcb source files]: cad
 
 [beekeeb]: https://shop.beekeeb.com/product/goldfish-rev-c-open-source-pro-micro-replacement/
