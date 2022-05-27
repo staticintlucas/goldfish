@@ -55,7 +55,7 @@
   (pad "S1" thru_hole oval (at -5.62 -6.1) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp bd85d45a-4db3-427f-88e0-561dbf5c9834))
   (pad "S1" thru_hole oval (at 5.62 -6.1) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp ce4d6bd4-90e0-44e0-95cf-fe8b162b6a18))
   (model "${KIPRJMOD}/molex-216990_gct-usb45xx_hro-type-c-31-m-13x.pretty/Molex-2169900001.stp"
-    (offset (xyz 0 3.6 -0.55))
+    (offset (xyz 0 3.6 -0.52))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
