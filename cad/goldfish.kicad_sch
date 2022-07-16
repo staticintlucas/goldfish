@@ -3206,7 +3206,7 @@
     (uuid be61cf1a-4f09-4ef2-92bc-b6ed5020a3ac)
     (property "Reference" "D1" (id 0) (at 97.79 93.98 0))
     (property "Value" "D_Schottky" (id 1) (at 97.79 88.9 0))
-    (property "Footprint" "Diode_SMD:D_PowerDI-123" (id 2) (at 97.79 91.44 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 97.79 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 97.79 91.44 0)
@@ -3591,7 +3591,7 @@
       (reference "C10") (unit 1) (value "0u1") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/be61cf1a-4f09-4ef2-92bc-b6ed5020a3ac"
-      (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_PowerDI-123")
+      (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/c6672b65-6043-42b5-a2d1-8a8e4648a917"
       (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_0805_2012Metric")
