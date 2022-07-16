@@ -12,6 +12,8 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 - [Schematic]
 
+- [BOM]
+
 ## Features
 
 - Lower board profile with the mid-mounted USB-C connector
@@ -91,6 +93,7 @@ Goldfish Design by Lucas Jansen.
 
 [v1 branch]: https://github.com/staticintlucas/goldfish/tree/v1
 [schematic]: docs/schematic.pdf
+[BOM]: BOM.csv
 [preview]: docs/preview.png
 [connectors]: docs/connectors.png
 [pcb source files]: cad
