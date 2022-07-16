@@ -1,6 +1,6 @@
 # Goldfish v2
 
-**Note: This branch contains the work in progress design for Goldfish v2. The original Goldfish v1 design files are available in the [v1 branch].**
+**Note: This branch contains the design for Goldfish v2. The Goldfish v1 design files are available in the [v1 branch].**
 
 Goldfish is a Pro Micro compatible microcontroller board designed for use in mechanical keyboards. It is based on the same Atmel ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
 
@@ -17,14 +17,14 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 - Lower board profile with the mid-mounted USB-C connector
 - Two internal pins make the USB data lines easily accessible
 - USB-C is more durable, reversible and just plain cool
-- 5 additional pins on the underside of the board
+- 5 additional pins on the bottom edge of the board
 - Pin-compatible with the original Pro Micro
 - Sturdier through-hole USB connector
 - On board ESD protection for USB lines
 
 ## Changes compared to Goldfish v1
 
-- Addition of board ESD protection and fuse
+- Addition of on board ESD protection and fuse
 - All 0603 resistors and capacitors for (slightly) easier hand assembly
 - Castellated edge connectors similar to the Elite-C
 - Less obscure USB-C connector
@@ -36,8 +36,8 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 ## Disadvantages
 
-- No onboard RX, TX, LEDs
-- No onboard Voltage Regulator (this makes no difference for keyboards; a regulator is only required when power supplies of over 5.5V are used)
+- No onboard RX, TX LEDs
+- No onboard voltage regulator (this makes no difference for keyboards; a regulator is only required when power supplies of over 5.5V are used)
 
 ## Vendors Selling Goldfish
 
