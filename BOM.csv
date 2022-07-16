@@ -1,0 +1,25 @@
+﻿Item #,Designator,Quantity,Manufacturer,Part #,Value,Package,Type,Notes
+1,"C1,C2,C3,C4,C5,C10",6,,,Cap 0u1 10%,0603,SMD,
+2,C6,1,,,Cap 4u7 10%,0603,SMD,
+3,"C7,C8",2,,,Cap 22p 5%,0603,SMD,
+4,C9,1,,,Cap 1u 10%,0603,SMD,
+5,D1,1,,,Schottky Diode 1A,SOD-123FL,SMD,
+6,F1,1,,,Resettable Fuse 12V 500mA,0805,SMD,
+7,J1,1,Molex,2169900001,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,
+7,J1,1,GCT,USB4520-03-0-A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,GCT,USB4520-03-1-A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,GCT,USB4510-03-1-A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,HRO,TYPE-C-31-M-13C,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,Molex,2169900003,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,GCT,USB4505-03-0-A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,HRO,TYPE-C-31-M-13B,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,Molex,2169900002,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,GCT,USB4500-03-0-A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,GCT,USB4500-03-1-A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+7,J1,1,HRO,TYPE-C-31-M-13A,USB 2.0 Type C Receptacle Mid Mount,,SMD/THT,Alternate part for J1
+8,"R1,R2",2,,,Res 5k1 1%,0603,SMD,
+9,"R3,R6",2,,,Res 10k 1%,0603,SMD,
+10,"R4,R5",2,,,Res 22R 1%,0603,SMD,
+11,U1,1,Microchip,ATmega32U4-MU,MCU 8-bit 16MHz 32K Flash,QFN44 7x7mm 0.5mm pitch,SMD,
+12,U2,1,ST,USBLC6-2P6,ESD Suppression TVS Diodes,SOT-666,SMD,
+13,X1,1,,,Crystal 16MHz 18pF,SMD3225 4P,SMD,
