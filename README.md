@@ -1,18 +1,19 @@
 # Goldfish v2
 
-**Note: This branch contains the design for Goldfish v2. The Goldfish v1 design files are available in the [v1 branch].**
+> [!NOTE]\
+> The main branch contains the design for Goldfish v2. The Goldfish v1 design is available in the [v1 branch](https://github.com/staticintlucas/goldfish/tree/v1)
 
 Goldfish is a Pro Micro compatible microcontroller board designed for use in mechanical keyboards. It is based on the same Atmel ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
 
-![preview]
+![preview](docs/preview.png)
 
 ## Links
 
-- [PCB Source Files]
+- [PCB Source Files](cad)
 
-- [Schematic]
+- [Schematic](docs/schematic.pdf)
 
-- [BOM]
+- [BOM](BOM.csv)
 
 ## Features
 
@@ -34,9 +35,26 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
   - Choice between multiple compatible connectors and suppliers
   - Uses USB 2.0-only connector for easier and cheaper assembly
 
-![connectors]
+## USB-C Connectors
 
-## Disadvantages
+| Manufacturer | Part number | | | |
+|:--- |:---:|:---:|:---:|:---:|
+| Molex | 216990-0001 | - | 216990-0003 | 216990-0002 |
+| HRO | - | TYPE-C-31-M-13C | TYPE-C-31-M-13B | TYPE-C-31-M-13A |
+| GCT | USB4520 | USB4510 | USB4505 | USB4500 |
+| Approx. thickness<br>1.2 mm PCB | ![c21p12]<br>3.2 mm | ![c16p12]<br>3.2 mm | ![c10p12]<br>3.4 mm | ![c08p12]<br>3.6 mm |
+| Approx. thickness<br>1.6 mm PCB | ![c21p16]<br>3.2 mm | ![c16p16]<br>3.2 mm | ![c10p16]<br>3.8 mm | ![c08p16]<br>4.0 mm |
+
+[c21p12]: docs/connectors/conn-21-pcb-12.png
+[c16p12]: docs/connectors/conn-16-pcb-12.png
+[c10p12]: docs/connectors/conn-10-pcb-12.png
+[c08p12]: docs/connectors/conn-08-pcb-12.png
+[c21p16]: docs/connectors/conn-21-pcb-16.png
+[c16p16]: docs/connectors/conn-16-pcb-16.png
+[c10p16]: docs/connectors/conn-10-pcb-16.png
+[c08p16]: docs/connectors/conn-08-pcb-16.png
+
+## Limitations compared to a Pro Micro
 
 - No onboard RX, TX LEDs
 - No onboard voltage regulator (this makes no difference for keyboards; a regulator is only required when power supplies of over 5.5V are used)
@@ -47,11 +65,14 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 - [BeeKeeb]
 
-#### Comet (modified design based on Goldfish v1; see related projects) 
+#### Comet (modified design based on Goldfish v1; see related projects)
 
 - [Tokas' Kable Works]
 
 **Note:** These products are sold by 3rd party vendors and are not 'officially' endorsed by me. I'm simply listing them here for convenience.
+
+[beekeeb]: https://shop.beekeeb.com/product/goldfish-rev-c-open-source-pro-micro-replacement/
+[tokas' kable works]: https://shop.tokas.co.uk/product/comet-usb-c-microcontroller/
 
 *(Also please let me know if anything is missing from this list)*
 
@@ -77,32 +98,20 @@ Goldfish is a Pro Micro compatible microcontroller board designed for use in mec
 
 - An unrelated and closed source project with similar design goals
 
-*(Please let me know if anything is missing form this list)*
-
-## License
-
-Released under the Creative Commons Attribution Share-Alike 4.0 License.  
-https://creativecommons.org/licenses/by-sa/4.0/  
-
-Original Arduino Mini Design by Team Arduino.  
-Arduino Pro Mini Design by Spark Fun Electronics.  
-Pro Micro Design by Spark Fun Electronics.  
-Goldfish Design by Lucas Jansen.  
-
-<!-- Links -->
-
-[v1 branch]: https://github.com/staticintlucas/goldfish/tree/v1
-[schematic]: docs/schematic.pdf
-[BOM]: BOM.csv
-[preview]: docs/preview.png
-[connectors]: docs/connectors.png
-[pcb source files]: cad
-
-[beekeeb]: https://shop.beekeeb.com/product/goldfish-rev-c-open-source-pro-micro-replacement/
-[tokas' kable works]: https://shop.tokas.co.uk/product/comet-usb-c-microcontroller/
-
 [alvaro]: https://github.com/Ariamelon/Alvaro
 [comet]: https://github.com/vattern/comet
 [whale]: https://github.com/JiaGengChang/Whale
 [elite-c]: https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4
 [goldfish-clone-jlcpcb]: https://github.com/JeremyJStarcher/Goldfish-clone-JLCPCB
+
+*(Please let me know if anything is missing form this list)*
+
+## License
+
+Released under the Creative Commons Attribution Share-Alike 4.0 License.
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Original Arduino Mini Design by Team Arduino.
+Arduino Pro Mini Design by Spark Fun Electronics.
+Pro Micro Design by Spark Fun Electronics.
+Goldfish Design by Lucas Jansen.
